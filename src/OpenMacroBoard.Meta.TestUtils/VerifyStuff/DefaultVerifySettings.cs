@@ -1,3 +1,4 @@
+using OpenMacroBoard.Meta.TestUtils.VerifyStuff;
 using VerifyTests;
 
 namespace OpenMacroBoard.Meta.TestUtils

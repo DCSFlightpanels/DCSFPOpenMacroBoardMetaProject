@@ -3,6 +3,7 @@ using System;
 using System.Diagnostics.CodeAnalysis;
 using System.IO;
 using System.Threading.Tasks;
+using OpenMacroBoard.Meta.TestUtils.VerifyStuff;
 using VerifyTests;
 using VerifyXunit;
 

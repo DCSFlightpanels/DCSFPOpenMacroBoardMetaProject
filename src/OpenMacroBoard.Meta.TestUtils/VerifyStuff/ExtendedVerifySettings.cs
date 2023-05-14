@@ -1,7 +1,7 @@
 using System;
 using VerifyTests;
 
-namespace OpenMacroBoard.Meta.TestUtils
+namespace OpenMacroBoard.Meta.TestUtils.VerifyStuff
 {
     public class ExtendedVerifySettings : ICloneable
     {
