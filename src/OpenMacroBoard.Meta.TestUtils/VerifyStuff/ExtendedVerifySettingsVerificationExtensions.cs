@@ -3,11 +3,10 @@ using System.Diagnostics.CodeAnalysis;
 using System.IO;
 using System.Threading.Tasks;
 using Argon;
-using OpenMacroBoard.Meta.TestUtils.VerifyStuff;
 using VerifyTests;
 using VerifyXunit;
 
-namespace OpenMacroBoard.Meta.TestUtils
+namespace OpenMacroBoard.Meta.TestUtils.VerifyStuff
 {
     [SuppressMessage("Minor Code Smell", "S3236:Caller information arguments should not be provided explicitly", Justification = "Intentional")]
     [SuppressMessage("Naming", "RCS1047:Non-asynchronous method name should not end with 'Async'.", Justification = "They are async!")]

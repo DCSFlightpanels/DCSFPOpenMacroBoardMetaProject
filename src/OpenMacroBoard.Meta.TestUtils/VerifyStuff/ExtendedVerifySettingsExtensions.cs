@@ -1,9 +1,8 @@
 using System;
 using System.IO;
 using System.Runtime.CompilerServices;
-using OpenMacroBoard.Meta.TestUtils.VerifyStuff;
 
-namespace OpenMacroBoard.Meta.TestUtils
+namespace OpenMacroBoard.Meta.TestUtils.VerifyStuff
 {
     public static class ExtendedVerifySettingsExtensions
     {

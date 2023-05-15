@@ -1,7 +1,6 @@
-using OpenMacroBoard.Meta.TestUtils.VerifyStuff;
 using VerifyTests;
 
-namespace OpenMacroBoard.Meta.TestUtils
+namespace OpenMacroBoard.Meta.TestUtils.VerifyStuff
 {
     public static class DefaultVerifySettings
     {
