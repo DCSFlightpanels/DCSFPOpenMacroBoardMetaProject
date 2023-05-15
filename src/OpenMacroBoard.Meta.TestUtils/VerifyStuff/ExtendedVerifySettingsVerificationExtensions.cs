@@ -1,8 +1,8 @@
-using Newtonsoft.Json.Linq;
 using System;
 using System.Diagnostics.CodeAnalysis;
 using System.IO;
 using System.Threading.Tasks;
+using Argon;
 using OpenMacroBoard.Meta.TestUtils.VerifyStuff;
 using VerifyTests;
 using VerifyXunit;
@@ -56,7 +56,8 @@ namespace OpenMacroBoard.Meta.TestUtils
 
         public static SettingsTask VerifyJsonAsync(this ExtendedVerifySettings settings, JToken target)
         {
-            return Verifier.VerifyJson(target, settings.BuildVerifySettings(), settings.GetSourceFileOrThrow());
+            //todo
+            return null;//Verifier.VerifyJson(target, settings.BuildVerifySettings(), settings.GetSourceFileOrThrow());
         }
 
         public static SettingsTask VerifyJsonAsync(this ExtendedVerifySettings settings, Stream target)

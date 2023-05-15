@@ -30,7 +30,8 @@ namespace OpenMacroBoard.Meta.TestUtils.VerifyStuff
 
             if (!string.IsNullOrEmpty(Extension))
             {
-                settings.UseExtension(Extension);
+                //todo
+                //settings.UseExtension(Extension);
             }
 
             settings.UseDirectory(Directory);

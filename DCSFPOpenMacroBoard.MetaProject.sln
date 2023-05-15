@@ -1,0 +1,77 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "StreamDeckSharp", "StreamDeckSharp", "{89CE4817-58F7-46FF-8098-233671054E78}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "OpenMacroBoard", "OpenMacroBoard", "{567FC8FC-DEC9-474F-9F16-49271075AF01}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "_build", "build\_build.csproj", "{B1CF6653-EA7E-4FAF-A123-DA4D7595B4D6}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OpenMacroBoard.Meta.TestUtils", "src\OpenMacroBoard.Meta.TestUtils\OpenMacroBoard.Meta.TestUtils.csproj", "{9FB743C3-279C-4E79-AC61-4878C2DE3D11}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OpenMacroBoard.SDK", "src\DCSFPOpenMacroBoard.SDK\src\OpenMacroBoard.SDK\OpenMacroBoard.SDK.csproj", "{B51EA578-B489-411D-9605-7D290FE8214B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OpenMacroBoard.SocketIO", "src\DCSFPOpenMacroBoard.SDK\src\OpenMacroBoard.SocketIO\OpenMacroBoard.SocketIO.csproj", "{E8B213B3-1549-410F-9565-5C83974A2333}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OpenMacroBoard.Tests", "src\DCSFPOpenMacroBoard.SDK\src\OpenMacroBoard.Tests\OpenMacroBoard.Tests.csproj", "{2C4DE742-7E5B-4A84-AF95-557024E634D0}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OpenMacroBoard.VirtualBoard", "src\DCSFPOpenMacroBoard.SDK\src\OpenMacroBoard.VirtualBoard\OpenMacroBoard.VirtualBoard.csproj", "{32D129C7-9230-4C63-90DF-8F5888A02D8C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StreamDeckSharp", "src\DCSFPStreamDeckSharp\src\StreamDeckSharp\StreamDeckSharp.csproj", "{28F443CD-B87E-4B82-94BF-546853B49A6A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StreamDeckSharp.Tests", "src\DCSFPStreamDeckSharp\src\StreamDeckSharp.Tests\StreamDeckSharp.Tests.csproj", "{FC3C5BBF-0693-4641-8C05-52AA7A5856EF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B1CF6653-EA7E-4FAF-A123-DA4D7595B4D6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B1CF6653-EA7E-4FAF-A123-DA4D7595B4D6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9FB743C3-279C-4E79-AC61-4878C2DE3D11}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9FB743C3-279C-4E79-AC61-4878C2DE3D11}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9FB743C3-279C-4E79-AC61-4878C2DE3D11}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9FB743C3-279C-4E79-AC61-4878C2DE3D11}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B51EA578-B489-411D-9605-7D290FE8214B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B51EA578-B489-411D-9605-7D290FE8214B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B51EA578-B489-411D-9605-7D290FE8214B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B51EA578-B489-411D-9605-7D290FE8214B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E8B213B3-1549-410F-9565-5C83974A2333}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E8B213B3-1549-410F-9565-5C83974A2333}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E8B213B3-1549-410F-9565-5C83974A2333}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E8B213B3-1549-410F-9565-5C83974A2333}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2C4DE742-7E5B-4A84-AF95-557024E634D0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2C4DE742-7E5B-4A84-AF95-557024E634D0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2C4DE742-7E5B-4A84-AF95-557024E634D0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2C4DE742-7E5B-4A84-AF95-557024E634D0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{32D129C7-9230-4C63-90DF-8F5888A02D8C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{32D129C7-9230-4C63-90DF-8F5888A02D8C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{32D129C7-9230-4C63-90DF-8F5888A02D8C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{32D129C7-9230-4C63-90DF-8F5888A02D8C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{28F443CD-B87E-4B82-94BF-546853B49A6A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{28F443CD-B87E-4B82-94BF-546853B49A6A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{28F443CD-B87E-4B82-94BF-546853B49A6A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{28F443CD-B87E-4B82-94BF-546853B49A6A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FC3C5BBF-0693-4641-8C05-52AA7A5856EF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FC3C5BBF-0693-4641-8C05-52AA7A5856EF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FC3C5BBF-0693-4641-8C05-52AA7A5856EF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FC3C5BBF-0693-4641-8C05-52AA7A5856EF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{B51EA578-B489-411D-9605-7D290FE8214B} = {567FC8FC-DEC9-474F-9F16-49271075AF01}
+		{E8B213B3-1549-410F-9565-5C83974A2333} = {567FC8FC-DEC9-474F-9F16-49271075AF01}
+		{2C4DE742-7E5B-4A84-AF95-557024E634D0} = {567FC8FC-DEC9-474F-9F16-49271075AF01}
+		{32D129C7-9230-4C63-90DF-8F5888A02D8C} = {567FC8FC-DEC9-474F-9F16-49271075AF01}
+		{28F443CD-B87E-4B82-94BF-546853B49A6A} = {89CE4817-58F7-46FF-8098-233671054E78}
+		{FC3C5BBF-0693-4641-8C05-52AA7A5856EF} = {89CE4817-58F7-46FF-8098-233671054E78}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4EDCF284-B355-487C-810B-97E751930463}
+	EndGlobalSection
+EndGlobal
