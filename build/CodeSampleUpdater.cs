@@ -29,7 +29,7 @@ internal class CodeSampleUpdater
 
     public CodeSampleUpdater(AbsolutePath markdownFile)
     {
-        this.markdownFile = markdownFile ?? throw new System.ArgumentNullException(nameof(markdownFile));
+        this.markdownFile = markdownFile ?? throw new ArgumentNullException(nameof(markdownFile));
     }
 
     public static void Run(AbsolutePath markdownFile)
