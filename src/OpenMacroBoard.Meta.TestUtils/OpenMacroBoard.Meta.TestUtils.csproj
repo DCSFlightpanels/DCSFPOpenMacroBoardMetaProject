@@ -11,7 +11,7 @@
   <ItemGroup>
     <PackageReference Include="Microsoft.VisualStudio.Shell.Interop.10.0" Version="17.6.36389" />
     <PackageReference Include="Verify.ImageSharp" Version="4.2.0" />
-    <PackageReference Include="Verify.Xunit" Version="19.14.1" />
+    <PackageReference Include="Verify.Xunit" Version="20.4.0" />
   </ItemGroup>
 
   <ItemGroup>
